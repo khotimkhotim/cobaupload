@@ -1,0 +1,65 @@
+.logo{
+background:red;
+width:100%;
+height:40px;
+margin:auto;
+}
+.gambar
+{
+float:left;
+height:30px;
+margin:5px;
+}
+ul {
+  list-style:none;
+  position:relative;
+}
+a {
+  text-decoration:none;
+  color:white;
+  font-family:BLISSFUL THINKING;
+  font-size:16px;
+}
+li {
+  display:inline;
+  background-color:none;
+  float:left;
+  padding:10px;
+  border-right:solid 03px none;
+}
+li:last-child {
+  border-right:none;
+}
+li:hover {
+  background-color:#ccc;
+}
+li ul li {
+  clear: both; /*Ngebuat Vertical SubMenu*/
+  border-right:none; /*Ngilangin border kanan di submenu*/
+  background-color:#ccc; /*Kasi warna abu2 di submenu*/
+}
+ul ul {
+  padding-left:0px; /*Mepetin ke kiri submenunnya*/
+  padding-top: 5px; /*Kasih jarak antara menu dengan submenu*/
+  display:none; /*Nge-hidden submenunya*/
+}
+ul li:hover > ul {
+  display:block; /*Munculin submenu pas menunya ke hover*/	
+}
+
+
+.heading {
+    border-bottom: 1px solid #F4F4F4;
+    padding-bottom: 5px;
+    margin-bottom: 25px;
+}
+
+.heading h1 {
+    border-bottom: 1px solid #2682E6;
+    display: inline;
+    padding-bottom: 5px;
+}
+
+.mtb-60 {
+    margin: 60px 0;
+}
